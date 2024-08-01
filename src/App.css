@@ -1,0 +1,151 @@
+/* src/App.css */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+/* src/App.css */
+.main-page {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.main-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.main-button:hover {
+  background-color: #0056b3;
+}
+
+.navigate-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-decoration: none;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #333;
+}
+
+th {
+  background-color: #b6c0d3;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #d5e0f5a4;
+}
+
+.container {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.filter-buttons {
+  margin: 10px;
+  text-align: center;
+}
+
+.filter-buttons button {
+  margin: 0 10px;
+  padding: 8px 5px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: white;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.filter-buttons button:hover {
+  background-color: #3c424e;
+}
+
+.counter-app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.set-button,
+.counter-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.set-button:hover,
+.counter-button:hover {
+  background-color: #0056b3;
+}
+
+.input-label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
